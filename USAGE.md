@@ -15,6 +15,7 @@ pip install . --no-build-isolation
 - 16GB显存
 
 ## 运行示例
+需提供无背景的物品图片，点击生成即可（速度以实际使用显卡为准）
 ![cucumber](assets/cucumber.gif)
 
 ![potato](assets/potato.gif)
