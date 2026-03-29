@@ -47,7 +47,8 @@ def create_ui(concurrency_id="wkl"):
         with gr.Column(scale=3):
             # export mesh display
             output_mesh = gr.Model3D(value=None, label="Mesh Model", show_label=True, height=320)
-            output_video = gr.Video(label="Preview", show_label=True, show_share_button=True, height=320, visible=False)
+            # output_video = gr.Video(label="Preview", show_label=True, show_share_button=True, height=320, visible=False)
+            output_video = gr.Video(label="Preview", show_label=True, height=320, visible=False)
             
             input_processing = gr.Checkbox(
                 value=True,
